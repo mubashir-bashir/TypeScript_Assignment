@@ -23,7 +23,8 @@ guestList.push("Sara");
 // Adding the list in the middle of the list 
 var middle = Math.floor(guestList.length / 2);
 guestList.splice(middle, 0, "Mota Bhai");
-var inivtedGuest = guestList.forEach(function (guest) {
+guestList.forEach(function (guest) {
     console.log("Dear ".concat(guest, ", I'm organizing a dinner gathering and would be honored if you could grace us with your presence. Your company would make the evening special.\""));
 });
-// inivtedGuest
+guestList;
+exports.default = guestList;

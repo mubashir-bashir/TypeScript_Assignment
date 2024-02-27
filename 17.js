@@ -20,3 +20,6 @@ console.log("\nUnfortunately, the new dinner table won't arrive on time; we can 
 guestList.forEach(function (guest) {
     console.log("Dear ".concat(guest, ",  We'd like to confirm that you are still warmly invited to dinner despite recent updates"));
 });
+guestList.pop();
+guestList.shift();
+console.log(guestList);

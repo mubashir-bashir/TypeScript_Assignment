@@ -25,3 +25,8 @@ console.log("\nUnfortunately, the new dinner table won't arrive on time; we can 
 guestList.forEach((guest)=>{
     console.log(`Dear ${guest},  We'd like to confirm that you are still warmly invited to dinner despite recent updates`)
 })
+
+guestList.pop()
+guestList.shift()
+
+console.log(guestList)

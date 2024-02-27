@@ -3,7 +3,7 @@
 // • Add one new guest to the beginning of your array.
 // • Add one new guest to the middle of your array. • Use append() to add one new guest to the end of your list. • Print a new set of invitation messages, one for each person in your list.
 
-export{}
+
 let guestList= ['Mubashir', 'Ali','Adnan']
 
 guestList.forEach((guest)=>{
@@ -33,3 +33,7 @@ guestList.splice(middle,0,"Mota Bhai")
 guestList.forEach((guest)=>{
     console.log(`Dear ${guest}, I'm organizing a dinner gathering and would be honored if you could grace us with your presence. Your company would make the evening special."`)
 })
+
+guestList
+
+export default guestList
